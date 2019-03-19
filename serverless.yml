@@ -12,7 +12,7 @@ plugins:
 
 functions:
   hello:
-    name: serverless-travis
+    name: serverless-money
     script: worker
     events:
       - http:
