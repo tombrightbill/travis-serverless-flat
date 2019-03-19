@@ -4,6 +4,7 @@ node_js:
 
 install:
   - npm install -g serverless
+  - npm install -g serverless-cloudflare-workers
 
 deploy:
   - provider: script
