@@ -13,7 +13,7 @@ plugins:
 functions:
   hello:
     name: serverless-travis
-    script: helloWorld  # there must be a file called helloWorld.js
+    script: helloWorld
     events:
       - http:
           url: travis-flat.tombrightbill.com/*

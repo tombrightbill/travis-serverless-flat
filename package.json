@@ -8,7 +8,5 @@
   },
   "author": "cloudflare",
   "license": "MIT",
-  "devDependencies": {
-    "serverless-cloudflare-workers": "^1.0.5"
-  }
+  "devDependencies": {}
 }
