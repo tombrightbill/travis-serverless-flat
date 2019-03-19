@@ -1,0 +1,20 @@
+service:
+    name: hello-world
+
+provider:
+  name: cloudflare
+  config:
+    accountId: ${env:CLOUDFLARE_ACCOUNT_ID}
+    zoneId: ${env:CLOUDFLARE_ZONE_ID}
+
+plugins:
+  - serverless-cloudflare-workers
+
+functions:
+  hello:
+    name: serverless-travis
+    script: helloWorld  # there must be a file called helloWorld.js
+    events:
+      - http:
+          url: travis-flat.tombrightbill.com/*
+
