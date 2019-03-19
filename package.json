@@ -4,7 +4,7 @@
   "description": "Cloudflare serverless deployment for self-serve customers",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 10"
+    "test": "echo \"Error: no test specified\" && exit 0"
   },
   "author": "cloudflare",
   "license": "MIT",
