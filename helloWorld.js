@@ -3,5 +3,5 @@ addEventListener('fetch', event => {
   })
   
   async function handleRequest(request) {
-    return new Response("flat deploy")
+    return new Response("flat deploys")
   }
