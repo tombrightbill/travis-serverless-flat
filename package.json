@@ -13,6 +13,7 @@
     "mocha": "^6.0.2"
   },
   "dependencies": {
+    "serverless": "^1.39.1",
     "serverless-cloudflare-workers": "^1.1.0"
   }
 }
