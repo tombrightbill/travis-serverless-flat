@@ -1,5 +1,5 @@
 service:
-    name: travis-example
+    name: travis-examples
 
 provider:
   name: cloudflare
