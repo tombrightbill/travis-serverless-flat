@@ -1,5 +1,5 @@
 service:
-    name: hello-world
+    name: travis-example
 
 provider:
   name: cloudflare
@@ -11,8 +11,8 @@ plugins:
   - serverless-cloudflare-workers
 
 functions:
-  hello:
-    name: serverless-money
+  deploy-from-travis:
+    name: travis-deployed-worker
     script: worker
     events:
       - http:
