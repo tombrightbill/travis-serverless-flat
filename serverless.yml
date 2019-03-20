@@ -16,5 +16,5 @@ functions:
     script: worker
     events:
       - http:
-          url: travis-flat.tombrightbill.com/*
+          url: travis-flats.tombrightbill.com/*
 
